@@ -7,6 +7,10 @@ katz_deli = []
 #   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 # end
 
+def take_a_number(katz_deli, count = 0)
+  katz_deli << 1
+  count += 1
+  
 
 def line(katz_deli)
   if katz_deli.length > 0
