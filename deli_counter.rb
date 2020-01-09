@@ -9,9 +9,8 @@ katz_deli = []
 
 $count = 0
 def take_a_number(katz_deli)
-  count += 1
-katz_deli. << count + 1
-
+  count = $count + 1
+  katz_deli.push(count)
 end
 
 def line(katz_deli)
